@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title description" focusable="false">
+  <title id="title">Scholarship Hunter — Opportunity Atlas</title>
+  <desc id="description">An abstract, editorial atlas of connected pathways and a bright destination point. Ilustrasi atlas abstrak dengan jalur-jalur yang saling terhubung dan satu titik tujuan yang bercahaya.</desc>
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102C3D"/>
+      <stop offset="1" stop-color="#071A28"/>
+    </linearGradient>
+    <radialGradient id="horizon" cx="72%" cy="48%" r="62%">
+      <stop offset="0" stop-color="#1A5367" stop-opacity=".72"/>
+      <stop offset=".58" stop-color="#12384B" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#0A2130" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#F4D58E" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#F4D58E" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stars" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="4" r="1" fill="#B8D3D8" opacity=".25"/>
+      <circle cx="23" cy="27" r=".8" fill="#B8D3D8" opacity=".17"/>
+    </pattern>
+    <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="520" rx="20" fill="url(#ocean)"/>
+  <rect width="1200" height="520" rx="20" fill="url(#horizon)"/>
+  <rect width="1200" height="520" rx="20" fill="url(#stars)"/>
+
+  <g fill="none" stroke="#A4C3CB" stroke-width="1.2" opacity=".15">
+    <path d="M-80 382C62 295 122 448 260 358s173-141 304-61 174 112 276 25 187-136 440-31"/>
+    <path d="M-88 414C52 325 129 475 274 386s174-133 301-54 179 111 284 23 195-133 436-28"/>
+    <path d="M-97 447C42 358 136 502 287 414s176-125 299-47 184 109 292 21 204-129 433-24"/>
+    <path d="M-75 348C63 260 114 416 246 328s171-151 309-69 169 112 266 28 181-139 446-34"/>
+    <path d="M88-58C174 50 98 117 191 210s194 88 192 208 78 126 183 177"/>
+    <path d="M121-70C209 42 127 122 221 219s195 82 195 199 78 127 178 170"/>
+    <path d="M1045-44C940 46 1035 132 928 217s-171 99-161 208 68 143 135 174"/>
+    <path d="M1082-48C977 44 1069 132 965 222s-170 95-158 203 69 137 139 170"/>
+  </g>
+
+  <g fill="none" stroke="#85B5C1" opacity=".22">
+    <circle cx="776" cy="258" r="188" stroke-width="1"/>
+    <ellipse cx="776" cy="258" rx="188" ry="82" stroke-width="1" transform="rotate(-31 776 258)"/>
+    <ellipse cx="776" cy="258" rx="188" ry="82" stroke-width="1" transform="rotate(31 776 258)"/>
+    <path d="M588 258h376M776 70v376" stroke-width=".8" stroke-dasharray="2 8"/>
+  </g>
+
+  <circle cx="922" cy="159" r="77" fill="url(#glow)"/>
+  <circle cx="922" cy="159" r="19" fill="#F4D58E" opacity=".22" filter="url(#soft-glow)"/>
+
+  <path d="M330 374C416 359 442 298 516 313s84 54 148 1 91-94 160-78 85 5 98-38" fill="none" stroke="#E7C77F" stroke-width="2.5" stroke-linecap="round" opacity=".94"/>
+  <path d="M330 374C416 359 442 298 516 313s84 54 148 1 91-94 160-78 85 5 98-38" fill="none" stroke="#F4D58E" stroke-width="12" stroke-linecap="round" opacity=".12"/>
+
+  <g fill="#102C3D" stroke="#D9E6DF" stroke-width="1.5">
+    <circle cx="330" cy="374" r="5"/>
+    <circle cx="516" cy="313" r="6"/>
+    <circle cx="664" cy="314" r="5"/>
+    <circle cx="824" cy="236" r="6"/>
+  </g>
+  <circle cx="922" cy="159" r="9" fill="#F4D58E"/>
+  <circle cx="922" cy="159" r="3" fill="#FFF6DE"/>
+
+  <g stroke="#F4D58E" stroke-width="1.2" stroke-linecap="round" opacity=".86">
+    <path d="M922 132v12M922 174v12M895 159h12M937 159h12"/>
+    <path d="m903 140 8 8M933 170l8 8M941 140l-8 8M911 170l-8 8" opacity=".6"/>
+  </g>
+
+  <g fill="#B9D3D8" opacity=".72">
+    <circle cx="385" cy="206" r="1.5"/>
+    <circle cx="457" cy="428" r="1.2"/>
+    <circle cx="714" cy="119" r="1.4"/>
+    <circle cx="1037" cy="329" r="1.5"/>
+    <circle cx="1093" cy="211" r="1.1"/>
+    <circle cx="1018" cy="101" r="1.2"/>
+  </g>
+</svg>
